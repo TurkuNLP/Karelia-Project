@@ -3,7 +3,7 @@ import pytorch_lightning as pl
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch 
 from huggingface_hub import login
-login(token="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")
+login(token="INSERT TOKEN HERE")
 
 def log_gpu_memory():
     for gpu in range(torch.cuda.device_count()):
