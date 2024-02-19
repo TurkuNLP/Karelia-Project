@@ -15,18 +15,24 @@ API
 
 Sample of our annotated data is in format like this. 
 
-{
-        "index": 2,
-        "primary_person_name": "TOIVO RAVANTTI",
-        "primary_person_id": "siirtokarjalaiset_2_17390P",
-        "spouse_name": "Aino Inkeri Luukka",
-        "spouse_id": "siirtokarjalaiset_2_17390S_1",
-        "source_text": "toim.johtaja, synt. 22. 6. -29 Antreassa. Puol. Aino Inkeri o.s. Luukka, liikeapul., synt. 28. 9. -29 Uudellakirkolla. Lapset: Jukka Tapani -58 Riihimäki, Jarmo Juhani 59 Riihimäki, Jari Olavi -62 Loppi. Asuinp. Karjalassa: Antrea, Kaltove-denmaankylä 39, 42—44. Muut asuinp : Tammela -42, Ikaalinen 44—, Janakkala, Loppi, Sajaniemi 47—54, Loppi, Pilpala 54—58, Riihimäki, Loppi kk. 60—. Toivo Ravantti asuu perheineen omakotitalossaan. Toim.johtaja Ravantti on jäsenenä Lopen Karjalaiset ry.ssä. verolautakunnassa ja Sajaniemen Hirviveikot ry:ssä. Hänen harrastuksenaan on metsästys ja kalastus. Rouva kuuluu jäsenenä Lopen Karjalaiset ry:een ja toimii Lopen Kuparsaaren Marttojen sihteerinä. Hänen harrastuksenaan ovat käsityöt ja puutarhanhoito.",
-        "person_hobbies": "metsästys, kalastus",
-        "person_social_orgs": "Lopen Karjalaiset ry, verolautakunta, Sajaniemien hirviveikot ry",
-        "spouse_hobbies": "käsityöt, puutarhanhoito",
-        "spouse_social_orgs": "Lopen Karjalaiset ry, Lopen Kuparsaaren Martat"
-}
+
+"index": 2,
+"primary_person_name": "TOIVO RAVANTTI",
+"primary_person_id": "siirtokarjalaiset_2_17390P",
+"spouse_name": "Aino Inkeri Luukka",
+"spouse_id": "siirtokarjalaiset_2_17390S_1",
+
+
+"source_text": "toim.johtaja, synt. 22. 6. -29 Antreassa. Puol. Aino Inkeri o.s. Luukka, liikeapul., synt. 28. 9. -29 Uudellakirkolla. Lapset: Jukka Tapani -58 Riihimäki, Jarmo Juhani 59 Riihimäki, Jari Olavi -62 Loppi. Asuinp. Karjalassa: Antrea, Kaltove-denmaankylä 39, 42—44. Muut asuinp : Tammela -42, Ikaalinen 44—, Janakkala, Loppi, Sajaniemi 47—54, Loppi, Pilpala 54—58, Riihimäki, Loppi kk. 60—. Toivo Ravantti asuu perheineen omakotitalossaan. Toim.johtaja Ravantti on jäsenenä Lopen Karjalaiset ry.ssä. verolautakunnassa ja Sajaniemen Hirviveikot ry:ssä. Hänen harrastuksenaan on metsästys ja kalastus. Rouva kuuluu jäsenenä Lopen Karjalaiset ry:een ja toimii Lopen Kuparsaaren Marttojen sihteerinä. Hänen harrastuksenaan ovat käsityöt ja puutarhanhoito.",
+
+
+This is what GPT-4 gives as a response:
+
+"person_hobbies": "metsästys, kalastus",
+"person_social_orgs": "Lopen Karjalaiset ry, verolautakunta, Sajaniemien hirviveikot ry",
+"spouse_hobbies": "käsityöt, puutarhanhoito",
+"spouse_social_orgs": "Lopen Karjalaiset ry, Lopen Kuparsaaren Martat"
+
 
 Name Entity Recognition
 
